@@ -1,0 +1,30 @@
+* {margin : 10px;
+border: black;
+padding: 8;
+box-sizing: border-box;
+background-color:aquamarine;
+}
+body{
+    width:90w;
+    background-image: rgb(30,30,36);
+    color:blue(92,92,128);
+}
+header{
+    position: relative;
+    float: top;
+}
+h1{
+    text-transform:uppercase;
+    font-size: 40px;
+    text-align:center;
+}
+.fa{
+    padding:5px;
+    font-size: 30 px;
+    width: 60 px;
+    text-align: center;
+    margin: 8px 2px;
+}
+.fa-facebook{
+    opacity:0.8;
+}

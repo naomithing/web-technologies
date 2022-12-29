@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@500;800&display=swap');
+body{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+h1{
+  font-size: 80px;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(#00c4cc);
+  font-size: 36px;
+}
+.content-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*
+.left.col{
+float: left;
+width: 50%;
+}
+.right.col{
+float: right;
+width: 50%;
+}
+.right-col, .left-col{
+min-height: 200px;
+}*/
+.main{
+  background: green;
+}
+.right-col,
+.left-col{
+  width: 50%;
+  padding: 5%;
+}
+figure{
+  display: flex;
+  justify-content: center;
+  border: solid green 1px;
+  border-width: 160px;
+}
+img{
+  width: 40%;
+}

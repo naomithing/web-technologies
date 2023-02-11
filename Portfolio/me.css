@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 30vh;
+    background-color: #D6D4C7;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header{
+    padding: 20px 0 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo i{
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    border: 2px solid #BA7E6C;
+    color: #BA7E6C;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: white;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav .nav-list li.button a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #BA7E6C;
+    padding: 9px 28px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: #BA7E6C;
+    font-weight: 500;
+}
+nav .nav-list li.button:hover a{
+    background: #BA7E6C;
+    color: white;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    padding-top: 0px;
+    background-color: #D6D4C7;
+}
+.about img{
+    border-radius: 50%;
+    width:auto;
+    height: 500px;
+    background-size:cover;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1410px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+span{
+    color: #A45A50;
+}
+.about-text h2{
+    color:rgb(214, 136, 105);
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: rgb(95, 92, 92);
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
